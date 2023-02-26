@@ -36,7 +36,7 @@
     background-color: #e65555;
     /*background-image: linear-gradient(to right, #4b48fa 0%, #f079d2
     50%);*/
-    background-image: url("images/picture4.jpg");
+    background-image: url("images/photo11.jpg");
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -131,7 +131,7 @@
 .title-page {
     text-align: center;
     background-color: #000000;
-    background-image: url(images/picture1.JPG);
+    background-image: url(images/photo8.JPG);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -286,9 +286,8 @@
 }
 
 .photo-page-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-self: center;
+    
+  
     margin: 0 auto;
     height: 100%;
     background-color: #000000; 
@@ -320,13 +319,16 @@
 .photo-page-content h2 {
     padding-top: 3px;
     padding-bottom: 3px;
-    font-size: 2rem;
-    background-color: #c28ce0b4;
+    font-size: 1.5rem;
+    font-family: Cambria;
+    background-color: #000000; /*
     background-image: url("thing.png");
+    */
     background-blend-mode: multiply;
     display: flex;
+    text-align: center;
     text-decoration: none;
-    position: top;
+ 
 }
 
 .photo-page-content p {
@@ -343,34 +345,30 @@
     width: 100vw;
 }
 
-.audio-page-content {
-    align-items: center;
+.audio-page-background {
     background-color: #000000;
-    width: 1300px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-self: left;
     margin: 0 auto;
-    background-color: #000000; 
     z-index: 1;
     height: 100vh;
     width: 100vw;
     max-width: 1225px;
     padding: 20px 50px;
-    font-style: italic;
-
-}
-
-#audio-player1 {
-    padding: 10px 10px;
-   
-}
-#audio-player2 {
-    padding: 10px 10px;
     
-   
 }
 
+.audio-page-content {
+    display: block;
+    text-align: center;
+    border: 20px solid black;
+}
+
+audio {
+    padding: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: #e155e6;
+}
 
 #myVideo {
     position: fixed;
@@ -380,10 +378,10 @@
     max-width: 100%;
 }
 
-#picture1 {
+#photo1 {
     
     padding: 100px, 100px;
-    height: 400px;
+    height: 800px;
     width: auto;
     
     
@@ -395,40 +393,3 @@
     
     
 }
-#picture2 {
-    padding: 100px, 100px, 100px;
-    height: 400px;
-    width: auto;
-    
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-#picture3 {
-    padding: 100px, 100px;
-    height: 400px;
-    width: auto;
-    
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-#picture4 {
-    padding: 100px, 100px;
-    height: 400px;
-    width: auto;
-   
-    
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-
