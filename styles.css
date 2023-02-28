@@ -262,6 +262,53 @@ audio::-webkit-media-controls-panel {
     background-color: #82dcff;
 }
 
+/* contact me page */
+
+
+
+.contact-page {
+    background-color: #82dcff;
+    background-image: url(thing.png);
+    background-blend-mode: multiply;
+    color: #FFFFFF;
+}
+
+.contact-page-container {
+    
+  
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #000000; 
+    z-index: 1;
+    width: 100%;
+    max-width: 1225px;
+
+    padding: 20px 50px;
+    
+    font-style: italic;
+    
+    
+}
+
+.contact-page-content h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: Cambria;
+
+}
+
+.contact-page-content h2 {
+   
+ 
+}
+
+.contact-page-content pre {
+    padding-top: 10px;
+    padding-bottom: 150px;
+    font-family: Cambria;
+    font-size: 2rem;
+}
+
 #myVideo {
     position: fixed;
     right: 0;
