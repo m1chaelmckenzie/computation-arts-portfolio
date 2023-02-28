@@ -140,103 +140,7 @@
 
     
 }
-/*
-@media screen and (max-width: 9600px) {
-    .navbar-container{
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
-        height: 50vh;
-        z-index: 1;
-        width: 100vw;
-        padding: 0;
-       
-    }
 
-    .navbar-menu {
-        display: grid;
-        grid-template-columns: auto;
-        margin: 0;
-        width: 60vw;
-        position: absolute;
-        top: -1000px;
-        opacity: 0; 
-        transition: all 0.5s ease;
-        height: 90vh;
-        z-index: -1;
-        background: #000000;
-        border: 1px solid #ffffff;
-    }
-
-    .navbar-menu.active{
-       
-        background: #000000;
-        top: 100%;
-        opacity: 1;
-        transition: all 0.5s ease;
-        z-index: 99;
-        
-        font-size: 1.6rem;
-    }
-
-    #navbar-logo {
-        padding-left: 25px;
-    }
-
-    .navbar-toggle .bar {
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        transition: all 0.3s ease-in-out;
-        background: #fff;
-    }
-
-    .navbar-item {
-        width: 100%;
-        padding: 2rem;
-        width: 100%;
-        display: table;
-    }
-
-    #mobile-menu {
-        position: absolute;
-        top: 20%;
-        right: 5%;
-        transform: translate(5%, 20%);
-    }
-
-    .navbar-btn {
-        padding-bottom: 2rem;
-    }
-
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 80%;
-        height: 80%;
-        margin: 0;
-    }
-
-    .navbar-toggle .bar {
-        display: block;
-        cursor: pointer;
-    }
-
-    #mobile-menu.is-active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    #mobile-menu.is-active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    
-    #mobile-menu.is-active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-    
-}
-*/ 
 /* Home Page*/ 
 .main {
     background-color: #0749a0;
@@ -273,10 +177,10 @@
 
 .btn:hover{
     background-color: #fff;
-    #color: #26262662;
+    color: #26262662;
 }
 
-/*Photo Submissions Page*/
+/*Photo Pages*/
 
 .photo-page {
     background-color: #82dcff;
@@ -295,6 +199,7 @@
     width: 100%;
     max-width: 1225px;
     padding: 20px 50px;
+    padding-bottom: 100px;
     font-style: italic;
     
     
@@ -303,36 +208,18 @@
 .photo-page-content h1 {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 4rem;
-    background-image: url("zzx.jpg");
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-    display: flex;
-    position: top;
     font-family: Cambria;
 
 }
 
 .photo-page-content h2 {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    font-size: 1.5rem;
-    font-family: Cambria;
-    background-color: #000000; /*
-    background-image: url("thing.png");
-    */
-    background-blend-mode: multiply;
-    display: flex;
-    text-align: center;
-    text-decoration: none;
+   
  
 }
 
 .photo-page-content p {
     padding-top: 10px;
+    padding-bottom: 150px;
 }
 
 /*Audio Submissions Page*/
@@ -362,12 +249,17 @@
     border: 20px solid black;
 }
 
+.audio-page-content h1 {
+    padding-top: 35px;
+    font-family: Cambria;
+}
+
 audio {
     padding: 10px;
 }
 
 audio::-webkit-media-controls-panel {
-    background-color: #e155e6;
+    background-color: #82dcff;
 }
 
 #myVideo {
