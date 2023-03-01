@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin : 0;
     padding: 0;
-    font-family: Source Code Pro;
+    font-family: Garamond;
 }
 
 .navbar {
@@ -137,11 +137,17 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     font-size: 8rem;
+    
+    
 
     
 }
 
 /* Home Page*/ 
+.main-background {
+    background-color: #000000;
+    height: 50vh;
+}
 .main {
     background-color: #0749a0;
     background-image: url("images/ah.jpg");
@@ -151,12 +157,13 @@
     display: -ms-flex;
     display: -o-flex;
     width: 100%;
-    height: 424px;
+    height: 411px;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     font-size: 2rem;
+    padding-bottom: 30px;
 }
 
 .main a{
@@ -183,9 +190,9 @@
 /*Photo Pages*/
 
 .photo-page {
-    background-color: #82dcff;
-    background-image: url(thing.png);
-    background-blend-mode: multiply;
+    background-color: #000000;
+    
+    /*background-blend-mode: multiply;*/
     color: #FFFFFF;
 }
 
@@ -200,7 +207,7 @@
     max-width: 1225px;
     padding: 20px 50px;
     padding-bottom: 100px;
-    font-style: italic;
+    
     
     
 }
@@ -208,7 +215,7 @@
 .photo-page-content h1 {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: Cambria;
+    
 
 }
 
@@ -220,13 +227,15 @@
 .photo-page-content p {
     padding-top: 10px;
     padding-bottom: 150px;
+    font-family: Arial;
+    font-size: 2rem;
 }
 
 /*Audio Submissions Page*/
 .audio-page {
-    background-color: #82dcff;
-    background-image: url(thing.png);
-    background-blend-mode: multiply;
+    background-color: #000000;
+    
+   
     color: #FFFFFF;
     height: 100vh;
     width: 100vw;
@@ -234,6 +243,7 @@
 
 .audio-page-background {
     background-color: #000000;
+    
     margin: 0 auto;
     z-index: 1;
     height: 100vh;
@@ -251,7 +261,13 @@
 
 .audio-page-content h1 {
     padding-top: 35px;
-    font-family: Cambria;
+    
+}
+
+
+.audio-page-content p {
+    padding-bottom: 50px;
+    
 }
 
 audio {
@@ -259,7 +275,7 @@ audio {
 }
 
 audio::-webkit-media-controls-panel {
-    background-color: #82dcff;
+    background-color: #ffffff;
 }
 
 /* contact me page */
@@ -267,8 +283,8 @@ audio::-webkit-media-controls-panel {
 
 
 .contact-page {
-    background-color: #82dcff;
-    background-image: url(thing.png);
+    background-color: #000000;
+    /*background-image: url(thing.png);*/
     background-blend-mode: multiply;
     color: #FFFFFF;
 }
@@ -320,7 +336,7 @@ audio::-webkit-media-controls-panel {
 #photo1 {
     
     padding: 100px, 100px;
-    height: 800px;
+    height: 80vh;
     width: auto;
     
     
