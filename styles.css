@@ -189,9 +189,7 @@
 
 .photo-page {
     background-color: #000000;
-    background-image: url(images/sketch.jpg);
-    background-position: 50px;
-    background-blend-mode: multiply;
+    
 }
 
 
@@ -224,6 +222,47 @@
     font-family: Arial;
     font-size: 2rem;
 }
+
+/*illustration Pages*/
+
+.ill-page {
+    background-color: #000000;
+    background-image: url(images/sketch.jpg);
+    background-position: 50px;
+    background-blend-mode: multiply;
+}
+
+
+.ill-page-container {
+    
+  
+    margin: 0 auto;
+    height: 100%;
+    background-color: #000000; 
+    z-index: 1;
+    width: 100%;
+    max-width: 1225px;
+    padding: 20px 50px;
+    padding-bottom: 100px;
+    
+    
+    
+}
+
+.ill-page-content h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+
+.ill-page-content p {
+    padding-top: 10px;
+    padding-bottom: 150px;
+    font-family: Arial;
+    font-size: 2rem;
+}
+
 
 /*Audio Submissions Page*/
 .audio-page {
