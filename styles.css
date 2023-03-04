@@ -229,7 +229,7 @@
 .ill-page {
     background-color: #56b8df;
     background-image: url(images/sketch.jpg);
-    background-position: 50px;
+    background-position: 150px;
     background-blend-mode: multiply;
     color: #FFFFFF;
 }
