@@ -227,10 +227,10 @@
 /*illustration Pages*/
 
 .ill-page {
-    background-color: #56b8df;
+    background-color: #000000;
     background-image: url(images/sketch.jpg);
     background-position: 150px;
-    background-blend-mode: multiply;
+    
     color: #FFFFFF;
 }
 
