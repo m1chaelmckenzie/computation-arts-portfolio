@@ -189,19 +189,11 @@
 
 .photo-page {
     background-color: #000000;
-    
-    /*background-blend-mode: multiply;*/
-    color: #FFFFFF;
-}
-
-.ill-page {
-    background-color: #82dcff;
-    
     background-image: url(images/sketch.jpg);
     background-position: 50px;
     background-blend-mode: multiply;
-    
 }
+
 
 .photo-page-container {
     
