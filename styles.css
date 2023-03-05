@@ -269,29 +269,27 @@
 /*Audio Submissions Page*/
 .audio-page {
     background-color: #000000;
-    
-   
     color: #FFFFFF;
-    height: 100vh;
-    width: 100vw;
+    
 }
 
-.audio-page-background {
-    background-color: #000000;
+.audio-page-container {
     
     margin: 0 auto;
+    height: 100%;
+    background-color: #000000; 
     z-index: 1;
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
     max-width: 1225px;
     padding: 20px 50px;
-    
+    padding-bottom: 100px;
 }
+
 
 .audio-page-content {
     display: block;
     text-align: center;
-    border: 20px solid black;
+    
 }
 
 .audio-page-content h1 {
